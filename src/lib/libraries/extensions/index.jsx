@@ -233,5 +233,27 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/wedo'
 
+    },
+    {
+        name: 'nib extensions',
+        extensionId: 'nib',
+        collaborator: 'Bino Maiheu',
+        iconURL: wedoImage,
+        insetIconURL: wedoMenuImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="nib extensions"
+                description="Description for the nib extension"
+                id="gui.extension.nib.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        launchPeripheralConnectionFlow: false,
+        useAutoScan: true,
+        helpLink: 'http://theatticlab.be'
+
     }
+
 ];
