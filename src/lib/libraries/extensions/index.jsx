@@ -248,7 +248,7 @@ export default [
         insetIconURL: mqttInsetImage,
         description: (
             <FormattedMessage
-                defaultMessage="MQTT Extension"
+                defaultMessage="Connect to IoT devices"
                 description="Description for the MQTT extension"
                 id="gui.extension.mqtt.description"
             />
